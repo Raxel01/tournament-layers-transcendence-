@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+/* .Global-Div:hover{} */
+body {
+
+  background-color: #11141b;
+  /* #1C1E27 */
+  /* #F62943 */
+}
+
+.image {
+  border-radius: 5px;
+  /* margin: 15px auto; */
+  margin-left: 60px;
+  box-shadow: 0 0 400px black;
+  width: 30rem;
+  height: 27rem;
+  transform: scale(1.24);
+}
+.Global-Div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border-radius: 10px;
+  box-shadow: 0 0 25px #70783a;
+  background-color: #1c1e27;
+  width: 90rem;
+  height: 30rem;
+  top: 20%;
+  left: 50%;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, 50%);
+  position: relative;
+}
+
+.comming-soon {
+  display: inline;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  top: calc(-80px);
+  left: calc(830px);
+  rotate: -20deg;
+}
+
+/* LAYER =======2 */
+.image1 {
+  border-radius: 5px;
+  /* margin: 15px auto; */
+  margin-left: 60px;
+  box-shadow: 0 0 400px black;
+  width: 29rem;
+  height: 25rem;
+  transform: scale(1.30);
+}
+.Global-Div1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border-radius: 10px;
+  box-shadow: 0 0 25px #f62943;
+  background-color: #1c1e27;
+  width: 90rem;
+  height: 30rem;
+  top: 20%;
+  left: 50%;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, 50%);
+  position: relative;
+}
+
+.comming-soon1 {
+  display: inline;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  top: calc(-80px);
+  left: calc(830px);
+  rotate: -20deg;
+}
+/* **************** */
+
+/* LAYEEEEEEEER 2222 */
+.image2 {
+  border-radius: 5px;
+  margin-left: 60px;
+  box-shadow: 0 0 400px black;
+  width: 30rem;
+  height: 27rem;
+  transform: scale(1.24);
+}
+.Global-Div2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border-radius: 10px;
+  box-shadow: 0 0 25px #53a9e2;
+  background-color: #1c1e27;
+  width: 90rem;
+  height: 30rem;
+  top: 20%;
+  left: 50%;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, 50%);
+  position: relative;
+}
+
+.comming-soon2 {
+  display: inline;
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  top: calc(-80px);
+  left: calc(830px);
+  rotate: -20deg;
+}
+
+/* ********************* */
+.all-layers {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 8rem;
+}
+.quotes{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 22px;
+  color: white;
+}
